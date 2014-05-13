@@ -75,7 +75,7 @@ public class Gui extends JFrame implements ActionListener {
 	public static void main (String args[])
 	{
 		Gui s = new Gui("Horse racing");
-		s.setSize(600, 350);
+		s.setSize(740, 400);
 		s.setLocation(700, 400);
 		s.setVisible(true);
 		s.addWindowListener(new WindowAdapter() {
