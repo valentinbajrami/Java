@@ -18,7 +18,7 @@ import javax.swing.*;
 
 public class Gui extends JFrame implements ActionListener {
 	
-	private JButton b1 = new JButton("Starto");
+	private JButton b1 = new JButton("Start");
 	private JButton b2 = new JButton("Reset");
 	
 	private JPanel control = new JPanel();
