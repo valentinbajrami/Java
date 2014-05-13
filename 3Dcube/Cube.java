@@ -15,7 +15,7 @@ public class Cube
 		// create frame for CubeJPanel
 		JFrame frame = new JFrame( "Kubus" );
 		frame.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
-		x1 = Integer.parseInt(JOptionPane.showInputDialog("How big should the cubus be?"));
+		x1 = Integer.parseInt(JOptionPane.showInputDialog("How big should the volume be?"));
 		x = Integer.parseInt(JOptionPane.showInputDialog("What should be the horizontal size?"));
 		y = Integer.parseInt(JOptionPane.showInputDialog("What should be the vertical size?"));
 		CubeJPanel cubeJPanel = new CubeJPanel(x1,x,y);
