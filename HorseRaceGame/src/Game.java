@@ -102,7 +102,7 @@ public class Game extends JPanel implements Runnable {
 	{
 		Graphics g = this.getGraphics();
 		g.setColor(Color.black);
-		g.drawString("De winner is paard nummer " + winner, 300, 250);
+		g.drawString("The winner is horse number " + winner, 300, 250);
 	}
 	
 	/*
